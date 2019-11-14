@@ -8,7 +8,10 @@ const Counter = () => {
     <div>
       <label>
         The counter is at :
-        <input value={count} />
+        <input
+          value={count}
+          onChange={event => setCount(parseInt(event.target.value))}
+        />
       </label>
       <br />
       <button onClick={() => setCount(count + 1)}>> +1</button>
