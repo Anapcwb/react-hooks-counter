@@ -1,3 +1,5 @@
+Deployed application on Netlify: https://app.netlify.com/sites/nostalgic-allen-7df8e7/deploys/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
